@@ -1,30 +1,39 @@
 {
-  "uuid": "a4a613b5-8a6b-4ff0-bd80-0038a151cd86",
-  "shortName": "Authenticator",
-  "longName": "Authenticator",
-  "capabilities": [ "configurable" ],
-  "companyName": "pokey9000/IEF/rigel314",
-  "versionCode": 1,
-  "versionLabel": "1.1.0",
-  "watchapp": {
-    "watchface": false
-  },
-  "appKeys": {
-    "messageType": 0,
-    "secretIndex": 1,
-    "secretLabel": 2,
-    "secretKey": 3,
-    "numSecrets": 4,
-    "curTime": 5
-  },
-  "resources": {
-    "media": [
-      {
-        "menuIcon": true,
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/twostep_icon.png"
-      }
-    ]
-  }
+    "appKeys": {
+        "curTime": 5,
+        "messageType": 0,
+        "numSecrets": 4,
+        "secretIndex": 1,
+        "secretKey": 3,
+        "secretLabel": 2
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "pokey9000/IEF/rigel314",
+    "enableMultiJS": false,
+    "longName": "Authenticator",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/twostep_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Authenticator",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "a4a613b5-8a6b-4ff0-bd80-0038a151cd86",
+    "versionLabel": "1.2",
+    "watchapp": {
+        "watchface": false
+    }
 }
